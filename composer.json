@@ -1,0 +1,19 @@
+{
+    "name": "mrferos/expressive-http-method",
+    "autoload": {
+        "psr-4": {
+            "MrfExpressive\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "MrfExpressive\\Test\\": "tests/"
+        }
+    },
+    "require": {
+        "psr/http-message": "^1.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^4.8"
+    }
+}
