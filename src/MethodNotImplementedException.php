@@ -1,5 +1,5 @@
 <?php
-namespace MrfExpressive;
+namespace MrfExpressive\HttpMethod;
 
 use Exception;
 

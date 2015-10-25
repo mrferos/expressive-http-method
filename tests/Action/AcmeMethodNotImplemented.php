@@ -1,7 +1,8 @@
 <?php
-namespace MrfExpressive\Test\Action;
+namespace MrfExpressive\HttpMethod\Test\Action;
 
-use MrfExpressive\HttpMethodTrait;
+
+use MrfExpressive\HttpMethod\HttpMethodTrait;
 
 class AcmeMethodNotImplemented
 {

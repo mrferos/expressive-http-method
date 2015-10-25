@@ -1,5 +1,5 @@
 <?php
-namespace MrfExpressive;
+namespace MrfExpressive\HttpMethod;
 
 use Psr\Http\Message\ResponseInterface;
 use Psr\Http\Message\ServerRequestInterface;

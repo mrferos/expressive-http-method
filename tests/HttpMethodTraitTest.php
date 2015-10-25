@@ -1,9 +1,9 @@
 <?php
 namespace MrfExpressive\Test;
 
-use MrfExpressive\MethodNotImplementedException;
-use MrfExpressive\Test\Action\AcmeAction;
-use MrfExpressive\Test\Action\AcmeMethodNotImplemented;
+use MrfExpressive\HttpMethod\MethodNotImplementedException;
+use MrfExpressive\HttpMethod\Test\Action\AcmeAction;
+use MrfExpressive\HttpMethod\Test\Action\AcmeMethodNotImplemented;
 use Psr\Http\Message\ResponseInterface;
 use Psr\Http\Message\ServerRequestInterface;
 

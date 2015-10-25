@@ -1,8 +1,8 @@
 <?php
-namespace MrfExpressive\Test\Action;
+namespace MrfExpressive\HttpMethod\Test\Action;
 
-use MrfExpressive\HttpMethodInterface;
-use MrfExpressive\HttpMethodTrait;
+use MrfExpressive\HttpMethod\HttpMethodInterface;
+use MrfExpressive\HttpMethod\HttpMethodTrait;
 use Psr\Http\Message\ResponseInterface;
 use Psr\Http\Message\ServerRequestInterface;
 
@@ -87,6 +87,4 @@ class AcmeAction implements HttpMethodInterface
     {
         return __FUNCTION__;
     }
-
-
 }
